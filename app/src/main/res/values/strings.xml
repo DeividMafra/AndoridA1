@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Votes</string>
+    <string-array name="candidates">
+        <item>Candidate A</item>
+        <item>Candidate B</item>
+        <item>Candidate C</item>
+    </string-array>
 </resources>

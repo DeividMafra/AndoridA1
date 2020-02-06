@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/nameTxt"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        />
+    <EditText
+        android:id="@+id/idTxt"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        />
+    <Spinner
+        android:id="@+id/candidatesItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/candidates"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <Button
+        android:text="NNN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="vote"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        />
+        <Button
+            android:text="Vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="vote"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
